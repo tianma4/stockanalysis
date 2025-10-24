@@ -1,4 +1,4 @@
-from dexter.utils.ui import UI
+from stockanalysis.utils.ui import UI
 
 
 class Logger:

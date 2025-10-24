@@ -2,17 +2,17 @@ from typing import List
 
 from langchain_core.messages import AIMessage
 
-from dexter.model import call_llm
-from dexter.prompts import (
+from stockanalysis.model import call_llm
+from stockanalysis.prompts import (
     ACTION_SYSTEM_PROMPT,
     ANSWER_SYSTEM_PROMPT,
     PLANNING_SYSTEM_PROMPT,
     VALIDATION_SYSTEM_PROMPT,
 )
-from dexter.schemas import Answer, IsDone, Task, TaskList
-from dexter.tools import TOOLS
-from dexter.utils.logger import Logger
-from dexter.utils.ui import show_progress
+from stockanalysis.schemas import Answer, IsDone, Task, TaskList
+from stockanalysis.tools import TOOLS
+from stockanalysis.utils.logger import Logger
+from stockanalysis.utils.ui import show_progress
 
 
 class Agent:

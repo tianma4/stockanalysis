@@ -6,7 +6,7 @@ from typing import Type, List, Optional
 from langchain_core.tools import BaseTool
 from langchain_core.messages import AIMessage
 
-from dexter.prompts import DEFAULT_SYSTEM_PROMPT
+from stockanalysis.prompts import DEFAULT_SYSTEM_PROMPT
 
 # Initialize the OpenAI client
 # Make sure your OPENAI_API_KEY is set in your environment

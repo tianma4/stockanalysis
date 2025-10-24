@@ -1,0 +1,24 @@
+{
+  "holdings": [
+    {
+      "ticker": "TSLA",
+      "units": 740.0,
+      "cost_per_unit": 236.37
+    },
+    {
+      "ticker": "NVDA",
+      "units": 800.0,
+      "cost_per_unit": 131.85
+    },
+    {
+      "ticker": "IBRX",
+      "units": 600.0,
+      "cost_per_unit": 2.64
+    },
+    {
+      "ticker": "BTC-USD",
+      "units": 0.847999,
+      "cost_per_unit": 44852.1
+    }
+  ]
+}
